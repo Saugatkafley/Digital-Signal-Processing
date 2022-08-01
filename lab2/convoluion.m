@@ -1,0 +1,13 @@
+x = [0,1,2,3];
+h = [1,2,-1,1];
+y = conv(x,h );
+subplot(311);
+stem(x);
+xlabel("x");
+title("x");
+subplot(312);
+stem(h);
+title("h");
+subplot(313);
+stem(y);
+title("convolution");

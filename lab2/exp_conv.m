@@ -1,0 +1,10 @@
+t= 0:0.01:10;
+x = exp(0.5*t);
+h = ones(1 , length(x));
+y  = conv(h,x);
+subplot(311);
+plot(t,x);
+subplot(312);
+plot(t,h);
+subplot(313);
+plot(y);

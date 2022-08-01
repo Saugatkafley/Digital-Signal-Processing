@@ -1,0 +1,10 @@
+n= 0:10;
+x = power(0.5,n);
+h = ones(1,10);
+y = conv(x,h);
+subplot(311);
+stem(x);
+subplot(312);
+stem(h);
+subplot(313);
+stem(y);
