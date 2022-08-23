@@ -10,7 +10,7 @@ y =  cos(t);
 plot(t,y);
 xlabel("t");
 ylabel("y(t)");
-title("cosine wave");
+title("sinusoidal wave 075bct099");
 legend("sine", "cosine");
 hold off;
 

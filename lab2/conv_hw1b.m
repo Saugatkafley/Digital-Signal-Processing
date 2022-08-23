@@ -1,3 +1,4 @@
+clc;
 n= -10:1:10;
 % Empty vector x and h
 x = [];
@@ -18,6 +19,7 @@ end
 y = conv(x,h);
 subplot(311);
 stem(x);
+title("075bct099");
 subplot(312);
 stem(h);
 subplot(313);

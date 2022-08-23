@@ -4,11 +4,12 @@ y = conv(x,h);
 subplot(3,1,1);
 stem(x);
 xlabel("x");
-
+title('075bct099');
 subplot(3,1,2);
 stem(h);
 xlabel("h");
-
+title('');
 subplot(3,1,3);
 stem(y);
 xlabel("Convolution");
+title('Convolution ');

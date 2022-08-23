@@ -5,5 +5,7 @@ for(n = -10:1:10)
     stem(n,0);
   else
     stem(n,1);
+    title("Unit step 075bct099")
   end
 end
+hold off;
